@@ -1,6 +1,6 @@
 #include <Arduino.h>
 
-#define PIN_MASK 0b111100
+#define PIN_MASK 0b11111111
 #define PIN_MAX 6
 
 #define PIN_NOT_USED 0xff
@@ -10,7 +10,7 @@
 
 #define BYPASS_LEN_MAX 1024
 
-#define CLOCK_HALF_CYCLE_US 32
+#define CLOCK_HALF_CYCLE_US 128
 
 #define IDLE_TO_SHIFT_DR_CMD 0b001
 #define IDLE_TO_SHIFT_DR_LEN 3
