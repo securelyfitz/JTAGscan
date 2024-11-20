@@ -3,6 +3,11 @@
 JTAGscan allows you to find JTAG ports without buying expensive hardware like the JTAGulator.
 All you need is a Arduino compatible board and optionally a logic level shifter.
 
+# Supported hardware
+
+- SeeedStudio Xiao SAMD21, with 200 ohm resistors on output pins, has worked well with many 1.8, 3.3 and 5v targets with no issues to either tool or target. YMMV
+- SeeedStudio Xiao RP2040, with 200 ohm resistors, also works - but the current pin numbering (0,1,2,3) *doesn't* map to D1, D2, D3 that are labeled. [see definitions](https://github.com/earlephilhower/arduino-pico/blob/master/variants/seeed_xiao_rp2040/pins_arduino.h)
+
 ## How does it work?
 
 JTAGscan iterates through configured set of pins to find the JTAG TMS, TCK, TDO and TDI lines
