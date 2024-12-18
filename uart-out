@@ -1,0 +1,40 @@
+a
+     Automatically searching
+--- Starting with IDCODE scan ---
+| TCK | TMS | TDO |      IDCODE |
+---------------------------------
+|   2 |   3 |   0 |    4ba00477 |
+------------ SUCCESS ------------
+    TCK, TMS, and TDO found.
+--- BYPASS searching, just TDI --
+| TCK | TMS | TDO | TDI | Width |
+---------------------------------
+|   2 |   3 |   0 |   1 |    31 |
+------------ SUCCESS ------------
+> 
+
+---------------------------------
+-- JTAGscan Jtag Pinout Finder --
+---------------------------------
+ a - Automatically find all pins
+ i - IDCODE search for pins
+ b - BYPASS search for pins
+ t - TDI-only BYPASS search
+ d - set debug level. current: 0
+ p - adjust # pins. current: 6
+ h - print this help
+---------------------------------
+> 
+
+---------------------------------
+-- JTAGscan Jtag Pinout Finder --
+---------------------------------
+ a - Automatically find all pins
+ i - IDCODE search for pins
+ b - BYPASS search for pins
+ t - TDI-only BYPASS search
+ d - set debug level. current: 0
+ p - adjust # pins. current: 6
+ h - print this help
+---------------------------------
+> 
